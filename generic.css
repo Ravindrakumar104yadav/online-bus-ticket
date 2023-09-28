@@ -1,0 +1,159 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+}
+
+
+header{
+    background: #4e4e4e;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+header #branding{
+    float: left;
+    margin-left: 10%;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,header .current a{
+color: #e8491d;
+font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+#About{
+    min-height: 450px;
+    background: #35424a;
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    background: #35424a;
+    /* display: flex; */
+    
+    
+    /* text-align: center; */
+
+}
+
+
+.form-4 {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style form container as a flexbox for two columns */
+  .form-4 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  
+  .form-4 label {
+    flex-basis: 30%; 
+    font-weight: bold;
+    color: cadetblue;
+  }
+  
+  /* Style form inputs */
+  .form-4 input[type="text"] {
+    flex-basis: 65%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  
+  .form-4 input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  
+  .form-4 input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color: #e8491d;
+    align-items: center;
+    text-align: center;
+}
